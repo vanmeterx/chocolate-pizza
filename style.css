@@ -63,6 +63,9 @@ form{
 }
 .bio button{
   float:right;
+  background-color: red;
+  color: white;
+  padding: 10 20;
 }
 h1: {
   font-family: 'Anton', sans-serif;
@@ -107,10 +110,10 @@ body {
 .stripeBar {
   background: repeating-linear-gradient(
    45deg,
-   #ccc,
-   #ccc 30px,
-   #dbdbdb 30px,
-   #dbdbdb 60px);
+   #777,
+   #fff 3px,
+   #fff 0px,
+   #fff 4px);
    height: 10px;
    width: 901px;
    background-repeat: repeat-y;
@@ -132,4 +135,16 @@ font-family: 'Abel', sans-serif;
 .iconDetails {
   float: right;
   margin-top: -32px;
+}
+footer {
+  clear: left;
+  margin: 0 auto;
+  width: 901px;
+  text-align: center;
+}
+
+footer div img {
+  padding-left: 80px;
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
