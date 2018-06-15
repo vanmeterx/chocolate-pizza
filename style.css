@@ -2,6 +2,65 @@ article{
   width:901px;
   margin:0px auto;
 }
+.top hgroup{
+  display:inline-block;
+  width:300px;
+  float:left;
+}
+.top hgroup h1{
+  margin-bottom:0px;
+}
+.top hgroup h4{
+  margin-top:0px;
+  color:gray;
+}
+.top a{
+  margin-top:40px;
+  display:inline-block;
+  width:100px;
+  float:right;
+  color:gray;
+  text-decoration: none;
+}
+article img{
+  clear:left;
+}
+article p{
+  text-indent:2em;
+}
+fieldset{
+  border:none;
+  display:inline-block;
+  float:left;
+  height:305;
+  width: 49%;
+  box-sizing: border-box;
+  padding-top:30px;
+}
+fieldset:first-of-type{
+  padding-left:60px;
+}
+label{
+  display:block;
+  padding:6px 0px;
+}
+label:first-of-type{
+  padding-top:10px;
+}
+input{
+  display:inline-block;
+}
 form{
   background-image: url("img/list-bg.png");
+  height:305;
+}
+.bio img{
+  float:left;
+}
+.bio p{
+  display:inline-block;
+  float:left;
+}
+.bio button{
+  float:right;
 }
