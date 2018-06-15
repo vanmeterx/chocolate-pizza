@@ -10,9 +10,31 @@ body {
   font-family: 'Crimson Text', serif;
 }
 
+.stripeBar {
+  background: repeating-linear-gradient(
+   45deg,
+   #ffffff,
+   #ccc 30px,
+   #dbdbdb 30px,
+   #dbdbdb 60px);
+  height: 10px;
+  width: 901px;
+  margin: 0, auto;
+}
 .companylogo {
   font-family: 'Yellowtail', cursive;
+  font-size: 2.5em;
+  display: inline-block;
 }
 h4 {
 font-family: 'Abel', sans-serif;
+}
+.buyline {
+  font-family: 'Abel', sans-serif;
+  font-size: 0.75em
+}
+
+.iconDetails {
+  float: left;
+  padding: 0 20px 20px 0;
 }
