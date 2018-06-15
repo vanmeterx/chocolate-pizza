@@ -1,0 +1,70 @@
+h1: {
+  font-family: 'Anton', sans-serif;
+}
+
+header {
+  width: 901px;
+  margin: 0 auto;
+}
+
+header p {
+
+}
+
+.companylogo {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.5em;
+  display: block;
+  line-height: 33px;
+  margin-bottom: 6px;
+}
+.buyline {
+  font-family: 'Abel', sans-serif;
+  font-size: 0.75em;
+  margin-top: -7px;
+  display: block;
+
+}
+
+.input {
+  font-family: 'Patrick Hand', cursive;
+}
+ 
+.pinterest {
+  margin-right: 7px;
+}
+
+body {
+  font-family: 'Crimson Text', serif;
+}
+
+.stripeBar {
+  background: repeating-linear-gradient(
+   45deg,
+   #ccc,
+   #ccc 30px,
+   #dbdbdb 30px,
+   #dbdbdb 60px);
+   height: 10px;
+   width: 901px;
+   background-repeat: repeat-y;
+   margin-top: 10px;
+
+}
+
+h4 {
+font-family: 'Abel', sans-serif;
+}
+
+
+.logoDetails {
+  float: left;
+  padding: 0 5px 0px 0;
+  display: inline-block;
+  margin-top: 0px;
+}
+.iconDetails {
+  float: right;
+  margin-top: -32px;
+
+}
