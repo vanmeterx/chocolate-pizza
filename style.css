@@ -2,12 +2,9 @@ h1: {
   font-family: 'Anton', sans-serif;
 }
 
-.container2 {
-  margin: 0, auto;
-}
-
 header {
   width: 901px;
+  margin: 0 auto;
 }
 
 header p {
